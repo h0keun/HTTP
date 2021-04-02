@@ -28,19 +28,7 @@ HTTP는 앞서 공부한 Socket을 기반으로 동작하며 데이터를 주고
 앱에서는 화면을 이미 보여주고 있으므로 데이터만 받아 화면의 뷰에 데이터를 뿌리는 경우가 많다.  
 
 + Http_URL_Connection
-  표준자바에서 HTTP클라이언트를 만드는 가장 기본적인 방법은 HttpURLConnection 객체를 사용하는 것이다. 버튼을 추가하고 클릭이벤트로 요청스레드 객체를 하나 만들어 시작한다.  
-  [URLConnection 객체] 
-  ```JAVA
-  public URLConnection openConnection()
-  *HttpURLConnection 객체로 형변환(casting)하여 사용
-  ```
-  
-  [요청 관련 메소드]
-  ```JAVA
-  public void setRequestMethod(String method)
-  public void setRequestProperty(String fiedl, String newValue)
-  ```
-  
+  표준자바에서 HTTP클라이언트를 만드는 가장 기본적인 방법은 HttpURLConnection 객체를 사용하는 것이다. 버튼을 추가하고 클릭이벤트로 요청스레드 객체를 하나 만들어 시작한다.    
   ```JAVA
     requestBtn.setOnClickListener(new OnClickListener() {
     public void onClick(View v) {
