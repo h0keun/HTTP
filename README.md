@@ -1,4 +1,4 @@
-### Http(Header, Body) & Web - HttpConnection
+## Http(Header, Body) & Web - HttpConnection
 
 인터넷에서 데이터를 주고받을 때 HTTP를 많이 사용한다.  
 웹브라우저에서 서버에 연결하고 웹페이지를 받아와 화면에 보여줄 때 사용하는 것이 HTTP이기 때문에  
