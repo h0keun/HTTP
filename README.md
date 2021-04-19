@@ -65,5 +65,7 @@ HTTP는 앞서 공부한 Socket을 기반으로 동작하며 데이터를 주고
   });
   ```
   
+  <img src="https://user-images.githubusercontent.com/63087903/115213770-cfb83e00-a13c-11eb-9525-69ac90119ef5.jpg" width="250" height="530">
+  
   ** volley 나 okhttp 등 라이브러리 사용하면 스레드, 핸들러 신경안써두됨.  
   그래도 기본은 알아야지
